@@ -1,5 +1,5 @@
 # TagTheBus
-Is a mobile application including different features such as the display of a map, the use of a camera, etc.
+**TagTheBus** Is a mobile application including different features such as the display of a map, the use of a camera, etc.
 
 See the [specifications](https://github.com/STUDIO-Artaban/TagTheBus/blob/master/Tag%20the%20Bus.pdf) file.
 
