@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tag The Bus!</string>
+    <string name="action_map">Display map</string>
+    <string name="download_inprogress">Downloading in progress...</string>
+    <string name="content_desc">description</string>
+    <string name="error_download">Failed to download data file!</string>
+    <string name="error_no_internet">Device not connected!</string>
+    <string name="error_json">Wrong data file format!</string>
+    <string name="empty_album">Station album empty!</string>
+    <string name="photo_title">Title:</string>
+    <string name="error_camera">ERROR: Failed to open camera!</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="error_photo">ERROR: Failed to save picture! Please to retry!</string>
+    <string name="share_photo">Network:</string>
+    <string name="error_login">ERROR: Failed to connect to</string>
+    <string name="app_id">459539937528692</string>
+    <string name="facebook_shared">Picture shared on Facebook!</string>
+    <string name="error_shared">ERROR: Failed to share picture! Please to retry!</string>
+    <string name="google_shared">Picture shared on Google+!</string>
+    <string name="error_email">ERROR: No email client installed!</string>
+    <string name="mark_inprogress">Adding bus station marker...</string>
+    <string name="action_list">Display list</string>
+    <string name="action_location">Geolocate</string>
+    <string name="display_album">Display album</string>
+    <string name="date_format">MM/dd/yyyy - hh:mm:ss</string>
+
+</resources>

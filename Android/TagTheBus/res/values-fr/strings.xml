@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tag The Bus!</string>
+    <string name="action_map">Afficher la carte</string>
+    <string name="download_inprogress">Téléchargement en cours...</string>
+    <string name="content_desc">description</string>
+    <string name="error_download">Impossible de télécharger le fichier de données!</string>
+    <string name="error_no_internet">Périphérique non connecté!</string>
+    <string name="error_json">Fichier de données erronés!</string>
+    <string name="empty_album">Album photo vide!</string>
+    <string name="photo_title">Titre:</string>
+    <string name="error_camera">ERREUR: Impossible d\'activer la caméra!</string>
+    <string name="dialog_ok">Validez</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="error_photo">ERREUR: Echec durant la sauvegarde de la photo! Veuillez réessayer!</string>
+    <string name="share_photo">Réseau:</string>
+    <string name="error_login">ERREUR: Echec durant la connexion à</string>
+    <string name="app_id">459539937528692</string>
+    <string name="facebook_shared">Votre photo a été partagé sur Facebook!</string>
+    <string name="error_shared">ERREUR: Echec durant le partage de la photo! Veuillez réessayer!</string>
+    <string name="google_shared">Votre photo a été partagé sur Google+!</string>
+    <string name="error_email">ERREUR: Aucun compte email installé sur votre périphérique!</string>
+    <string name="mark_inprogress">Etiquetage des stations de bus...</string>
+    <string name="action_list">Afficher la liste</string>
+    <string name="action_location">Se géolocaliser</string>
+    <string name="display_album">Afficher l\'album photos</string>
+    <string name="date_format">dd/MM/yyyy - hh:mm:ss</string>
+    
+</resources>
