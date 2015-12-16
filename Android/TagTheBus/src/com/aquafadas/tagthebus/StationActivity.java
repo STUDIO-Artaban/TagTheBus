@@ -173,7 +173,6 @@ public class StationActivity extends Activity implements OnMarkerClickListener, 
 					geoLocation();
 				return true;
 		}
-		//return super.onOptionsItemSelected(item);
-		return false;
+		return super.onOptionsItemSelected(item);
 	}
 }
