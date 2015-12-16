@@ -1,9 +1,7 @@
 # TagTheBus
 **TagTheBus** is a mobile application including different features such as the display of a map, the use of a camera, etc.
 
-[![Screen Shot](AppIcon.appiconset/ic_launcher-120.png)](https://github.com/STUDIO-Artaban/TagTheBus/blob/master/iOS/TagTheBus/TagTheBus/Images.xcassets)
-
-[![Screen Shot](images/ScreenShot.png)](http://georgeosddev.github.com/markdown-edit)
+![Screenshot](https://github.com/STUDIO-Artaban/TagTheBus/blob/master/iOS/TagTheBus/TagTheBus/Images.xcassets/AppIcon.appiconset/ic_launcher-120.png)
 
 See the [specifications](https://github.com/STUDIO-Artaban/TagTheBus/blob/master/Tag%20the%20Bus.pdf) file.
 
