@@ -3,6 +3,8 @@
 
 [![Screen Shot](AppIcon.appiconset/ic_launcher-120.png)](https://github.com/STUDIO-Artaban/TagTheBus/blob/master/iOS/TagTheBus/TagTheBus/Images.xcassets)
 
+[![Screen Shot](images/ScreenShot.png)](http://georgeosddev.github.com/markdown-edit)
+
 See the [specifications](https://github.com/STUDIO-Artaban/TagTheBus/blob/master/Tag%20the%20Bus.pdf) file.
 
 ##Android installation
