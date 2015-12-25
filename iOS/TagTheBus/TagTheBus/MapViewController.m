@@ -40,11 +40,9 @@
     float lat = [(NSString*)[(NSDictionary*)([ListViewController getStations][0]) valueForKey:STATION_LATITUDE] floatValue];
     float lng = [(NSString*)[(NSDictionary*)([ListViewController getStations][0]) valueForKey:STATION_LONGITUDE] floatValue];
 
-    [self.mapView setNeedsLayout];
-    [self.mapView layoutIfNeeded];
-
     GMSCameraPosition* camera = [GMSCameraPosition cameraWithLatitude:lat longitude:lng zoom:14];
-    gmapView = [GMSMapView mapWithFrame:self.mapView.bounds camera:camera];
+    gmapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    gmapView.translatesAutoresizingMaskIntoConstraints = NO;
     gmapView.myLocationEnabled = YES;
     gmapView.delegate = self;
 
@@ -64,6 +62,20 @@
 
     [self.mapView addSubview:gmapView];
     [self.selStation setHidden:TRUE];
+
+    // Add constraints to the Google Map View in order to match its size and position with its parent view 'mapView'
+    [self.mapView addConstraint:[NSLayoutConstraint constraintWithItem:gmapView attribute:NSLayoutAttributeWidth
+                                    relatedBy:NSLayoutRelationEqual toItem:self.mapView attribute:NSLayoutAttributeWidth
+                                    multiplier:1.0 constant:0.0]];
+    [self.mapView addConstraint:[NSLayoutConstraint constraintWithItem:gmapView attribute:NSLayoutAttributeHeight
+                                    relatedBy:NSLayoutRelationEqual toItem:self.mapView attribute:NSLayoutAttributeHeight
+                                    multiplier:1.0 constant:0.0]];
+    [self.mapView addConstraint:[NSLayoutConstraint constraintWithItem:gmapView attribute:NSLayoutAttributeCenterX
+                                    relatedBy:NSLayoutRelationEqual toItem:self.mapView attribute:NSLayoutAttributeCenterX
+                                    multiplier:1.0 constant:0.0]];
+    [self.mapView addConstraint:[NSLayoutConstraint constraintWithItem:gmapView attribute:NSLayoutAttributeCenterY
+                                    relatedBy:NSLayoutRelationEqual toItem:self.mapView attribute:NSLayoutAttributeCenterY
+                                    multiplier:1.0 constant:0.0]];
 }
 - (void)viewWillDisappear:(BOOL)animated {
 
