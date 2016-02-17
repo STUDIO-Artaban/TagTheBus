@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.aquafadas.tagthebus.MainActivity" >
+    tools:context="com.studio.artaban.tagthebus.MainActivity" >
 
     <item
         android:id="@+id/action_map"

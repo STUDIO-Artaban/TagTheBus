@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.aquafadas.tagthebus.StationActivity" >
+    tools:context="com.studio.artaban.tagthebus.StationActivity" >
 
 	<fragment
 	    android:name="com.google.android.gms.maps.MapFragment"
