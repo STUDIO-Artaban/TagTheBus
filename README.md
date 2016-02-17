@@ -3,7 +3,7 @@
 
 ![Screenshot](https://github.com/STUDIO-Artaban/TagTheBus/blob/master/iOS/TagTheBus/TagTheBus/Images.xcassets/AppIcon.appiconset/ic_launcher-120.png)
 
-See the [specifications](https://github.com/STUDIO-Artaban/TagTheBus/blob/master/Tag%20the%20Bus.pdf) file.
+Note that this application is a test, a proof of Android & iOS framework knowledge.
 
 ##Android (installation)
 Copy the **Android/TagTheBus** folder into your local folder, then open it with **Eclipse** by creating a new Android Project From Existing Code.
