@@ -26,5 +26,6 @@
     <string name="action_location">Geolocate</string>
     <string name="display_album">Display album</string>
     <string name="date_format">MM/dd/yyyy - hh:mm:ss</string>
+    <string name="google_maps_key" translatable="false">AIzaSyAUDlMzAr2YbWQ9d8p-lN5NFMQMn75RHOc</string>
 
 </resources>
